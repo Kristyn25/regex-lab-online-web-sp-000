@@ -15,5 +15,5 @@ return text.match(/^[A-Z].*[.?!]$/) != nil
 end
 
 def valid_phone_number?(phone)
-
+return phone.match(/^\D?\d{3}\D?\d{3}\D?\d{4}$/)
 end
